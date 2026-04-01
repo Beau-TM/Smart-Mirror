@@ -22,3 +22,10 @@ Ervoor zorgen dat mensen bewust zijn van hoe vochtig het is in jou badkamer (en 
 Vergeet niet de extensies te downloaden voor C en arduino te gebruiken in vsc
 Je moet de volgende downloaden:
 C/C++ Extension Pack
+Arduino Community Edition
+Daarna moet je de CLI gaan downloaden van het internet wat natuurlijk wil het niet normaal doen
+https://docs.arduino.cc/arduino-cli/installation/
+Je moet de msi 64 bit pakken, dan effe kijken of dit gelukt is in een admin terminal op je eigen pc: arduino-cli version
+dan ga je in de terminal de esp32 downloaden dit doe je door dit te typen in de terminal:
+arduino-cli core update-index
+arduino-cli core install esp32:esp32s
