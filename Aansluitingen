@@ -15,7 +15,7 @@ HW-416A:
 
   1. Het Aansluitschema
   De HW-416A heeft drie pinnen. Als je de sensor voor je houdt (met de bolle witte kap naar je toe en de pinnen naar beneden), is de volgorde van links naar rechts meestal: GND, OUT, VCC.
-
+    Je kunt ook het kapje eraf halen en daar staan de poorten opgeschreven
   VCC (Rood/Plus): Verbinden met de 5V of VIN pin van je ESP32.
   OUT (Signaal): Verbinden met GPIO 13 op je ESP32.
   GND (Zwart/Min): Verbinden met een GND pin op je ESP32.
