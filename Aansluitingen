@@ -19,3 +19,11 @@ HW-416A:
   VCC (Rood/Plus): Verbinden met de 5V of VIN pin van je ESP32.
   OUT (Signaal): Verbinden met GPIO 13 op je ESP32.
   GND (Zwart/Min): Verbinden met een GND pin op je ESP32.
+
+DHT11 (4 pinnen):
+
+Als je naar de voorkant van de sensor kijkt (de kant met de gaatjes/rooster), tel je van links naar rechts:
+  Pin 1 (VDD/VCC): Voeding ($3.3V$ tot $5V$). Sluit deze aan op de $3.3V$ van je ESP32.
+  Pin 2 (DATA): Het signaal. Sluit deze aan op GPIO 14.
+  Pin 3 (NC): Not Connected. Deze pin doet niets, die mag je leeg laten.
+  Pin 4 (GND): De min-pool. Sluit deze aan op GN
