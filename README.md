@@ -29,3 +29,7 @@ Je moet de msi 64 bit pakken, dan effe kijken of dit gelukt is in een admin term
 dan ga je in de terminal de esp32 downloaden dit doe je door dit te typen in de terminal:
 arduino-cli core update-index
 arduino-cli core install esp32:esp32s
+Nu moeten we eps32 dev module installeren :
+crtl + shift + p
+Arduino: change board type
+esp32 dev module
